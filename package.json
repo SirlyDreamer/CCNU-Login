@@ -1,0 +1,22 @@
+{
+  "name": "ccnu-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "dependencies": {
+    "puppeteer": "^19.1.2"
+  },
+  "scripts": {
+    "login": "node login.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirlyDreamer/CCNU-Login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirlyDreamer/CCNU-Login/issues"
+  },
+  "homepage": "https://github.com/SirlyDreamer/CCNU-Login#readme"
+}

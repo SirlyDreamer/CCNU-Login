@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  ccnulogin:
+    container_name: ccnu-login
+    build: .
+    # image: sirly/ccnulogin:latest
+    restart: always
+    environment:
+      - USERNAME:<username>
+      - PASSWORD:<password>
